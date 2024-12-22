@@ -18,8 +18,7 @@ function Login() {
     baseURL: ENDPOINTS.API_BASE_URL,
     headers: {
       'Content-Type': 'application/json'
-    },
-    withCredentials: true
+    }
   });
 
   const handleSubmit = async (e) => {
