@@ -1,0 +1,45 @@
+[설치한 프로그램]
+Git
+Node.js
+
+[frontend]
+	- Vite(frontend)
+		- npm create vite@latest airline-management-system -- --template react
+		- npm install react-router-dom @mui/material @emotion/react @emotion/styled axios @mui/icons-material
+
+MYSQL-express(DB)
+	- userCreateSql.txt 파일참조
+	- backend 디렉토리 생성 후 설정
+		- cd backend
+		- npm init -y
+		- npm install express mysql2 cors dotenv nodemon
+	
+	
+[React]
+react-router-dom
+	- React 애플리케이션에서 라우팅을 관리하는 데 사용됩니다. 여러 페이지를 가진 애플리케이션에서 URL에 따라 다른 컴포넌트를 렌더링할 수 있게 해줍니다.
+@mui/material
+	- Material UI는 React를 위한 인기 있는 UI 컴포넌트 라이브러리입니다. 미리 디자인된 컴포넌트를 사용하여 빠르게 아름다운 사용자 인터페이스를 만들 수 있습니다.
+@emotion/react 및 @emotion/styled:
+	- Material UI와 함께 사용되는 스타일링 라이브러리입니다. CSS-in-JS 방식으로 스타일을 작성할 수 있게 해줍니다.
+axios
+	- HTTP 요청을 쉽게 처리할 수 있는 라이브러리입니다. API와 통신할 때 유용합니다.
+	
+
+[backend]
+	bcryptjs
+		- 비밀번호 해싱을 위한 라이브러리입니다.
+	jsonwebtoken
+		- JSON Web Token (JWT)을 생성하고 검증하는 라이브러리입니다. 사용자가 로그인할 때 인증 정보를 담은 토큰을 생성하여 클라이언트에 전달합니다. 클라이언트는 이 토큰을 사용하여 서버에 요청을 보낼 때 인증을 수행할 수 있습니다.
+	uuid
+		- db id숫자 자동생성?
+	- npm install bcryptjs jsonwebtoken
+	- npm install uuid
+
+[localhost 실행방법]
+프론트
+	- airline-management-system
+백엔드 
+	- airline-management-system\backend
+	
+cmd창에서 두개 전부 npm run dev 해줘야함.
