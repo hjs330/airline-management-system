@@ -1,8 +1,22 @@
-# React + Vite
+실행영상 유튜브 링크
+https://youtu.be/T7iFq2kUKlE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+기술 스택
+프론트 
+  - React + Vite
 
-Currently, two official plugins are available:
+백엔드
+  - Node.js
+  - express
+DB
+  - MySQL
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+프로젝트 기능
+  사용자
+    - 항공권 조회, 회원가입, 로그인
+
+  회원
+    - 항공권 조회, 예매, 예매내역 조회
+
+  관리자
+    - 항공권 조회, 추가, 수정, 삭제
